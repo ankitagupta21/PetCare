@@ -1,6 +1,5 @@
 .HealthChart{
     width: 95%;
-    height: 100%;
     background: rgba(254, 254, 254, 1);
     border: 1px solid rgba(218, 227, 248, 1);
     padding:0.8vw;
@@ -35,4 +34,13 @@
 .Option.active{
     background: rgba(55, 136, 229, 1);
     color: white;
+}
+
+@media screen and (max-width: 800px){
+    .Options{
+        font-size: 2vw;
+    }
+    .Option p{
+        font-size: 2vw;
+    }
 }

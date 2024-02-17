@@ -15,3 +15,16 @@
     flex-direction: column;
     gap: 1.8vw;
 }
+
+@media screen and (max-width: 800px){
+    .Dashboard{
+        flex-direction: column;
+        gap: 1.8vw;
+    }
+    .Dashboard-Left{
+        width: 100%;
+    }
+    .Dashboard-Right{
+        width:95%;
+    }
+}

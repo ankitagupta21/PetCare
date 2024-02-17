@@ -10,6 +10,18 @@
     height:fit-content;
     margin:0;
 }
+.Sidebar-Active{
+    position: fixed;
+    transition:850ms;
+    min-width: fit-content;
+    width: 11vw;
+    top: 0;
+    padding: 2vh 3.2vw;
+    min-height:100vh;
+    height:fit-content;
+    margin:0;
+    z-index: 100;
+}
 .Sidebar-Logo{
     display: flex;
     align-items: center;
@@ -126,10 +138,37 @@
     display: flex;
     align-items: center;
 }
+.Sidebar-Sch-Right img{
+    width: 6vw;
+    height: 3vw;
+}
 .Sidebar-Sch-Right.Notification{
     background: rgba(229, 55, 97, 1);
     color: white;
     padding: 0.5vw 0.8vw;
     border-radius: 6px;
+}
+
+@media screen and (max-width: 800px){
+    .Sidebar{
+        width:30vw;
+    }
+    .Sidebar-Logo img{
+        width: 3vw;
+        height: 3vw;
+    }
+    .Sidebar-Logo p{
+        font-size: 2vw;
+    }
+    .Sidebar-Menu-Items{
+        font-size: 2vw;
+    }
+    .Sidebar-Logout{
+        font-size: 2vw;
+    }
+    .Sidebar-Sch-Right img{
+        width: 6vw;
+        height: 3vw;
+    }
 }
 

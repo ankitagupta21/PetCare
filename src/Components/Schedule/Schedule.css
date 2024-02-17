@@ -102,3 +102,12 @@
     height: 100%;
     width: 100%;
 }
+
+@media screen and (max-width: 800px){
+    .Schedule-Table-Header{
+        font-size: 2vw;
+    }
+    .Schedule-Table-Item{
+        font-size: 2vw;
+    }
+}

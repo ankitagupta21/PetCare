@@ -7,6 +7,7 @@ import Logo from "../../assets/img/Logo.png";
 import Chat from "../../assets/img/Chat.png";
 import { SidebarData } from "./SidebarData";
 import { IoLogOutOutline } from "react-icons/io5";
+import { MdMenu } from "react-icons/md";
 
 function Sidebar() {
   const location = useLocation();

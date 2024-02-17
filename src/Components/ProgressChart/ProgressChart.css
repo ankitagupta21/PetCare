@@ -46,3 +46,18 @@
     border: none;
     outline: none;
 }
+
+@media screen and (max-width: 800px){
+    .progress-item{
+        width: 20vw;
+    }
+    .Chart-header p{
+        font-size: 2vw;
+    }
+    .dropdown{
+        font-size: 2vw;
+    }
+    .dropdown select{
+        font-size: 2vw;
+    }
+}

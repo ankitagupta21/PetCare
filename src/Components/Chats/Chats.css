@@ -1,6 +1,5 @@
 .Chats-Container{
     width: 100%;
-    height: 100%;
     background: rgba(254, 254, 254, 1);
     border: 1px solid rgba(218, 227, 248, 1);
     padding:0.8vw;
@@ -8,7 +7,6 @@
 }
 .Chats{
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -22,13 +20,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:0.5vw;
+    gap:1vw;
 }
 .Chat-Item-Right{
     width:80%;
     display: flex;
     flex-direction: column;
     gap:0.5vw;
+    font-size: 1vw;
+    padding: 0.5vw;
 }
 .Chat-Item-Right p{
     margin:0;
@@ -47,4 +47,19 @@
     color: white;
     padding: 0.4vw 0.8vw;
     border-radius: 6px;
+}
+.Chat-Item_Image{
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 800px){
+    .Chats-Container{
+        font-size: 2vw;
+    }
+    .Chat-Item-Right p{
+        font-size: 2vw;
+    }
 }
