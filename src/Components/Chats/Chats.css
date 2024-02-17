@@ -1,0 +1,50 @@
+.Chats-Container{
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 254, 254, 1);
+    border: 1px solid rgba(218, 227, 248, 1);
+    padding:0.8vw;
+    border-radius: 8px;
+}
+.Chats{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+    padding: 0.5vw;
+    font-size: 1vw;
+    font-weight: 500;
+    gap:0.8vw;
+}
+.Chat-Item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5vw;
+}
+.Chat-Item-Right{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    gap:0.5vw;
+}
+.Chat-Item-Right p{
+    margin:0;
+}
+.Chat-Item-Left{
+    width:20%;
+}
+.Chat-Item-Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Unread-Messages{
+    background: rgba(229, 55, 97, 1);
+    color: white;
+    padding: 0.4vw 0.8vw;
+    border-radius: 6px;
+}

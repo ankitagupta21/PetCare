@@ -1,0 +1,104 @@
+.Schedule{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(254, 254, 254, 1);
+    border: 1px solid rgba(218, 227, 248, 1);
+    padding:0.8vw;
+    border-radius: 8px;
+}
+.Schedule-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+.Schedule-Header p{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgba(11, 28, 51, 0.7);
+    margin:0;
+}
+.Schedule-Header-Right{
+    display: flex;
+    gap: 1vw;
+}
+.Schedule-Table{
+    font-size: 1vw;
+    font-weight: 500;
+    border: 1px solid rgba(218, 227, 248, 1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width:100%;
+}
+.Schedule-Table-Header{
+    padding: 0 0.8vw;
+    background-color: #DAE3F8;
+    display: flex;
+    width:95.6%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.Schedule-Table-Item{
+    padding: 0.2vw 0.8vw;
+    border-top: 1px solid rgba(218, 227, 248, 1);
+    display: flex;
+    align-items: center;
+    width:95.6%;
+}
+.Table-Type{
+    border-radius: 8px;
+    padding: 0.8vw;
+    display: flex;
+    justify-content: center;
+    width:60%;
+    margin-right:15px;
+}
+.Table-Type.Overdue{
+    color:rgba(208, 50, 88, 1);
+    background: rgba(252, 235, 239, 1);
+    border: 1px solid rgba(247, 193, 206, 1)
+}
+.Table-Type.Noncore{
+    color:rgba(242, 167, 53, 1);
+    background: rgba(252, 245, 235, 1);
+    border:1px solid rgba(247, 225, 193, 1)
+}
+.Table-Type.Core{
+    color:rgba(39, 164, 104, 1);
+    background: rgba(234, 248, 241, 1);
+    border: 1px solid rgba(189, 232, 211, 1)
+}
+.Table-Veterinar{
+    border-radius: 8px;
+    padding: 0.8vw;
+    border: 1px solid rgba(218, 227, 248, 1);
+    width:80%;
+    display: flex;
+    justify-content: center;
+}
+.Table-Veterinar.Find{
+    color:white;
+    background: rgba(55, 136, 229, 1);
+    border-width: 0px;
+}
+.Table-Name{
+    width:20%;
+}
+.Table-Date{
+    width:30%;
+}
+.Table-Type-Head{
+    width:30%;
+}
+.Table-Veterinar-Head{
+    width:30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.Loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

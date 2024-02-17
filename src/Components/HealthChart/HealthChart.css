@@ -1,0 +1,38 @@
+.HealthChart{
+    width: 95%;
+    height: 100%;
+    background: rgba(254, 254, 254, 1);
+    border: 1px solid rgba(218, 227, 248, 1);
+    padding:0.8vw;
+    border-radius: 8px;
+}
+.Options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin-bottom: 1vw;
+    border: 1px solid rgba(218, 227, 248, 1);
+    border-radius: 8px;
+    padding: 0.8vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.Option{
+    padding: 0.5vw;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:0.5vw;
+    color:"rgba(55, 136, 229, 1)";
+}
+.Option p{
+    margin: 0;
+
+}
+.Option.active{
+    background: rgba(55, 136, 229, 1);
+    color: white;
+}

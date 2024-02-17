@@ -1,0 +1,23 @@
+[
+    {
+        "name":"ACTIVITY",
+        "daily":25,
+        "weekly":50,
+        "monthly":75,
+        "yearly":80
+    },
+    {
+        "name":"SLEEP",
+        "daily":25,
+        "weekly":50,
+        "monthly":75,
+        "yearly":80
+    },
+    {
+        "name":"WELLNESS",
+        "daily":25,
+        "weekly":50,
+        "monthly":75,
+        "yearly":80
+    }
+]

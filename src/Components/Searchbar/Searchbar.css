@@ -1,0 +1,51 @@
+.Searchbar-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8vh 1vw;
+    background-color: rgba(254, 254, 254, 1);
+    border-bottom: 1px solid rgba(218, 227, 248, 1)
+}
+.Searchbar-div{
+    display: flex;
+    width: 60%;
+    padding: 0.5vw 1vw;
+    border-radius: 8px;
+    gap: 1vw;
+    border: 1px solid rgba(218, 227, 248, 1);
+    align-items: center;
+}
+.Searchbar-Icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Searchbar-Input{
+    width:100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size:1vw;
+    color: rgba(0, 0, 0, 0.7);
+}
+.Searchbar-right{
+    display: flex;
+    gap: 1.2vw;
+    align-items: center;
+}
+.Widget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(55, 136, 229, 1);
+    color: white;
+    cursor: pointer;
+    padding: 0.5vw 1vw;
+}
+.Widget p{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    font-weight: 500;
+}

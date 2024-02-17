@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Helen Brooks",
+        "photo":"../../assests/img/user1.png",
+        "status":"Online",
+        "lastMessage":"I'm going to be late today. I have a meeting with the new client at 10:30. I'll be back at 11:30. I'll call you when I'm back.",
+        "time":"10:00",
+        "unread":1
+    },
+    {
+        "id":2,
+        "name":"Helen Brooks",
+        "photo":"/img/user2.png",
+        "status":"Online",
+        "lastMessage":"How was your day?",
+        "time":"13:00",
+        "unread":2
+    },
+    {
+        "id":3,
+        "name":"Helen Brooks",
+        "photo":"/img/user3.png",
+        "status":"Offline",
+        "lastMessage":"Have you seen the new design?",
+        "time":"Tue",
+        "unread":0
+    },
+    {
+        "id":4,
+        "name":"Jim Brown",
+        "photo":"/img/user4.png",
+        "status":"Offline",
+        "lastMessage":"How are you?",
+        "time":"Tue",
+        "unread":0
+    }
+]

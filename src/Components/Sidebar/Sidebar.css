@@ -1,0 +1,135 @@
+.Sidebar{
+    min-width: fit-content;
+    width: 11vw;
+    background-color: rgba(254, 254, 254, 1);
+    border-width: 0px;
+    border-right: 1px solid rgba(218, 227, 248, 1) ;
+    top: 0;
+    padding: 2vh 3.2vw;
+    min-height:100vh;
+    height:fit-content;
+    margin:0;
+}
+.Sidebar-Logo{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height:2vw;
+    width: 8vw;
+    margin-bottom: 3vh;
+}
+.Sidebar-Logo img{
+    width: 2vw;
+    height: 2vw;
+    margin-right: 0.5vw;
+}
+.Sidebar-Logo p{
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 2vw;
+    color: rgba(11, 28, 51, 1);
+}
+.Sidebar-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Sidebar-Menu{
+    margin-bottom: 4vh;
+}
+.Sidebar-Menu-Items{
+    font-weight: 500;
+    font-size: 1vw;
+    color: rgba(11, 28, 51, 0.7);
+}
+.Sidebar-Menu-Item{
+    display: flex;
+    align-items: center;
+    border-radius: 1.2vw;
+    cursor: pointer;
+    margin-left: -1.8vw;
+    margin-right: -1.8vw;
+    padding: 0 1.8vw;
+    height: 4vw;
+    width:100%;
+}
+.Sidebar-Menu-Item-Link{
+    text-decoration: none;
+    color: rgba(11, 28, 51, 1);
+    margin-left: 1.8vw;
+}
+.Sidebar-Menu-Item.Active{
+    background: rgba(55, 136, 229, 1);
+    color: white;
+}
+.Sidebar-Menu-Item.Active p{
+    color: white;
+}
+.Sidebar-Menu-Item-Divider{
+    margin-top:1.5vw;
+    margin-left: -1.8vw;
+    margin-right: -1.8vw;
+    border: 1px solid rgba(218, 227, 248, 1)
+}
+.Sidebar-Logout{
+    color: rgba(229, 55, 97, 1);
+    display: flex;
+    align-items: center;
+    border-radius: 1.2vw;
+    cursor: pointer;
+    margin-left: -1.8vw;
+    margin-right: -1.8vw;
+    padding: 0 1.8vw;
+    height: 4vw;
+    width:100%;
+    font-weight: 500;
+    font-size: 1vw;
+    margin-top: 3vh;
+}
+.Sidebar-Logout:hover{
+    background: rgba(229, 55, 97, 1);
+    color: white;
+}
+.Sidebar-Logout-Link{
+    text-decoration: none;
+    color: rgba(229, 55, 97, 1);
+    margin-left: 1.8vw;
+}
+.Sidebar-Logout:hover p{
+    color: white;
+}
+.Sidebar-Logout.Active{
+    background: rgba(229, 55, 97, 1);
+    color: white;
+}
+.Sidebar-Logout.Active p{
+    color: white;
+}
+.Sidebar-Icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sidebar-Sch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+.Sidebar-Sch-Left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:20%;
+}
+.Sidebar-Sch-Right{
+    display: flex;
+    align-items: center;
+}
+.Sidebar-Sch-Right.Notification{
+    background: rgba(229, 55, 97, 1);
+    color: white;
+    padding: 0.5vw 0.8vw;
+    border-radius: 6px;
+}
+
